@@ -22,6 +22,7 @@ description:         Please see the README on GitHub at <https://github.com/IamM
 dependencies:
 - base >= 4.7 && < 5
 - codeworld-api == 0.7.0
+- text == 1.2.4.0
 
 library:
   source-dirs: src

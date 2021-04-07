@@ -25,7 +25,11 @@ source-repository head
 
 library
   exposed-modules:
+      Hw1
+      Hw2
       Lab2
+      Lab3
+      Lecture3
       Lib
   other-modules:
       Paths_HaskellDevEnv
@@ -34,6 +38,7 @@ library
   build-depends:
       base >=4.7 && <5
     , codeworld-api ==0.7.0
+    , text ==1.2.4.0
   default-language: Haskell2010
 
 executable HaskellDevEnv-exe
@@ -47,6 +52,7 @@ executable HaskellDevEnv-exe
       HaskellDevEnv
     , base >=4.7 && <5
     , codeworld-api ==0.7.0
+    , text ==1.2.4.0
   default-language: Haskell2010
 
 test-suite HaskellDevEnv-test
@@ -61,4 +67,5 @@ test-suite HaskellDevEnv-test
       HaskellDevEnv
     , base >=4.7 && <5
     , codeworld-api ==0.7.0
+    , text ==1.2.4.0
   default-language: Haskell2010
