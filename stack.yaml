@@ -52,6 +52,7 @@ extra-deps:
 - dependent-sum-0.6.1
 - witherable-0.3.1@sha256:ed3d5bc9eb1c08fa9704d9e143cdf622e1bd80b847cd5ede8c07da7bc7981ab9,1313
 - text-1.2.4.0
+- extra-1.7.9
 
 # Dependency packages to be pulled from upstream that are not in the resolver.
 # These entries can reference officially published versions as well as

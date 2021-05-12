@@ -1,6 +1,6 @@
 cabal-version: 1.12
 
--- This file has been generated from package.yaml by hpack version 0.34.3.
+-- This file has been generated from package.yaml by hpack version 0.34.4.
 --
 -- see: https://github.com/sol/hpack
 
@@ -25,11 +25,12 @@ source-repository head
 
 library
   exposed-modules:
-      Hw1
-      Hw2
+      Homework7
       Lab2
-      Lab3
-      Lecture3
+      LastLecture
+      Lecture8
+      Lecture8_2
+      Lecture8_3
       Lib
   other-modules:
       Paths_HaskellDevEnv
